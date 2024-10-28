@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="dis1" id="dis1">
+        <audio src="audio.mp3" id="intro"></audio>
+        <script type="text/javascript">
+            setTimeout(function () {
+                document.getElementById("intro").play();
+            }, 3000)
+        </script>
+        <img src="Avatar2.png" alt="NF" class="avatar bounce">
+        <div class="dialogueBox">
+            Hi, I'm Mario. And I'll your partner in this journey! Let's have some fun.
+            <div class="dbPoint"></div>
+        </div>
+        <div class="startBtn">
+            <a class="btn-slice" href="#">
+                <div class="top"><span>Let's Go</span></div>
+                <div class="bottom"><span>Let's Go</span></div>
+            </a>
+        </div>
+    </div>
+    <div class="main">Main body</div>
+</body>
+
+</html>
