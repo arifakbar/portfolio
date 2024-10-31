@@ -347,12 +347,12 @@ html {
 }
 
 .project h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 550;
 }
 
 .project p {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .project small {
@@ -591,10 +591,25 @@ html {
 }
 
 .wp_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 50%;
     overflow: hidden;
     border-radius: 15px;
+}
+
+.wp_1>img, .wp_2A>img{
+    height: 50%;
+    object-fit: fill;
+}
+
+.wp_1>h1, .wp_2A>h1{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
 }
 
 .wp_2 {
@@ -603,10 +618,12 @@ html {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+    padding-bottom: 5px;
 }
 
 .wp_2A {
+    
     border-radius: 15px;
     overflow: hidden;
 }
